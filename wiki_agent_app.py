@@ -49,7 +49,7 @@ st.title("🤖 WikiAgent Summarizer")
 st.write("Dein persönlicher KI-Agent, der Wikipedia-Artikel filtert und zusammenfasst.")
 
 # Eingabefeld
-search_query = st.text_input("Welches Thema möchtest du erforschen?", placeholder="z.B. Künstliche Intelligenz, Wien, Quantenmechanik")
+search_query = st.text_input("Welches Thema möchtest du erforschen?", placeholder="Wos willsch wissn? Ha?")
 
 # Schieberegler für die Informationstiefe
 summary_depth = st.select_slider(
